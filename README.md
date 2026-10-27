@@ -177,7 +177,6 @@ python -m experiments.supp_table6_celeba_kmeans            # Supp. Tab. 6
 python -m experiments.supp_figs6_12_celeba_groups --all    # Supp. Figs. 6-12
 
 # 4. Domino comparison: Tab. 3, Supp. Tabs. 7-9, Supp. Fig. 13 (see domino/README.md)
-#    cd domino && bash scripts/run_both_thresholds.sh WORK LATENTALIGN_DB NAMES
 
 # 5. traversals (GPU, see traversals/*)
 python traversals/arc2face/traverse_arc2face.py --mode removal    # Fig. 2(a)
