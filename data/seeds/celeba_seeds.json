@@ -1,0 +1,86 @@
+{
+ "_comment": "CelebA indices (order of data/celeba_image_order.txt). Seeds of Supp. Figs. 6-12 (grown with ArcFace, tau = 0.25).",
+ "fig6_tennis_cap": {
+  "seed": [
+   4712,
+   158511,
+   76055,
+   131633
+  ],
+  "caption": "Asian females with a tennis cap",
+  "confirmed": true
+ },
+ "fig7_turban": {
+  "seed": [
+   7735,
+   45242,
+   99111,
+   14216
+  ],
+  "caption": "Men wearing turbans",
+  "confirmed": true
+ },
+ "fig8_baseball_helmet": {
+  "seed": [
+   142626,
+   75068,
+   6165,
+   67382
+  ],
+  "caption": "Baseball players wearing batting helmets",
+  "confirmed": true
+ },
+ "fig9_bald_dark_skin": {
+  "seed": [
+   15900,
+   165802,
+   119423,
+   34454,
+   141420,
+   12469
+  ],
+  "caption": "Bald men with dark skin",
+  "confirmed": true
+ },
+ "fig10_bald_light_skin": {
+  "seed": [
+   78004,
+   33046,
+   129045,
+   35087,
+   35050,
+   74676
+  ],
+  "caption": "Bald men with light skin",
+  "confirmed": true
+ },
+ "fig11_single_seed": {
+  "seed": [
+   158511
+  ],
+  "caption": "Failure mode: single-image seed",
+  "confirmed": true
+ },
+ "fig12_single_seed": {
+  "seed": [
+   76055
+  ],
+  "caption": "Failure mode: single-image seed (females)",
+  "confirmed": true
+ },
+ "extra_baseball_cap": {
+  "seed": [
+   30889,
+   109102,
+   181152,
+   121174,
+   183453,
+   8972,
+   155849,
+   153175,
+   42209
+  ],
+  "caption": "Men wearing baseball caps (not shown in the paper)",
+  "confirmed": true
+ }
+}
