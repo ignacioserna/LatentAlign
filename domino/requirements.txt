@@ -1,0 +1,15 @@
+# core (smoke test runs with just these four)
+numpy>=1.24,<3
+pandas>=1.5
+Pillow>=9.0
+opencv-python>=4.7
+
+# nice-to-have
+tqdm>=4.64
+
+# CLIP backend (stage 04)
+torch>=2.0
+open_clip_torch>=2.20
+
+# optional cross-check against the official implementation (stage 05 --impl official):
+#   pip install "domino[clip,text] @ git+https://github.com/HazyResearch/domino@main"
