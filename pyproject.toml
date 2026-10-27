@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latentalign"
+version = "1.0.0"
+description = "LatentAlign: discovering intersectional bias via directional alignment in face recognition embeddings"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = ["numpy", "scipy", "pandas", "scikit-learn", "networkx", "joblib", "matplotlib", "seaborn", "tqdm"]
+
+[project.optional-dependencies]
+torch = ["torch>=2.0"]
+
+[tool.setuptools]
+packages = ["latentalign"]

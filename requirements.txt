@@ -1,0 +1,11 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=1.5
+scikit-learn>=1.2
+networkx>=3.0
+joblib>=1.2
+matplotlib>=3.7
+seaborn>=0.12
+tqdm>=4.65
+torch>=2.0          # spherical k-means only
+# embedding extraction:  insightface onnxruntime-gpu opencv-python scikit-image torchvision
