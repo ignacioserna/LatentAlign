@@ -4,7 +4,7 @@
 
 ### Discovering Intersectional Bias via Directional Alignment in Face Recognition Embeddings
 
-<a href="https://ignacioserna.github.io" style="text-decoration: none;">Ignacio Serna</a> · Center for Humans & Machines, Max Planck Institute for Human Development
+**[Ignacio Serna](https://ignacioserna.github.io)** · Center for Humans & Machines, Max Planck Institute for Human Development
 
 *WACV 2027*
 
