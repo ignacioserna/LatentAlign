@@ -21,7 +21,7 @@
 
 <p align="center"><sub><b>Intersectional groups discovered by LatentAlign on ArcFace (RFW).</b> R: random sample; A: blonde white women; B: young Indian women; C: Indian men with turbans; D: Chinese men with mustaches in black-and-white photographs. Bottom: within-group impostor (left) and genuine (right) similarity distributions, and the False Match Rate as a function of the threshold. The darker the group, the more its impostor scores shift towards the genuine ones.</sub></p>
 
-## TL;DR
+## Summary
 
 Face recognition audits usually compare predefined demographic groups. The groups a model actually fails on are often much narrower: a combination of age, ancestry, attire or capture conditions that no label taxonomy anticipates. **LatentAlign** finds them without attribute labels. It grows a group from a seed by repeatedly adding the face embedding most aligned with the group's identity-balanced direction, and stops when no remaining face is aligned enough. The groups it returns are more semantically coherent than those of standard clustering, and they expose **false match rates up to 6× higher** than the annotation-defined groups a supervised audit can build.
 
