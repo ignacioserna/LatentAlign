@@ -23,7 +23,7 @@
 
 ## Summary
 
-Face recognition audits usually compare predefined demographic groups. The groups a model actually fails on are often much narrower: a combination of age, ancestry, attire or capture conditions that no label taxonomy anticipates. **LatentAlign** finds them without attribute labels. It grows a group from a seed by repeatedly adding the face embedding most aligned with the group's identity-balanced direction, and stops when no remaining face is aligned enough. The groups it returns are more semantically coherent than those of standard clustering, and they expose **false match rates up to 6× higher** than the annotation-defined groups a supervised audit can build.
+Face recognition audits usually compare predefined demographic groups. The groups in which a model actually fails on are often much narrower: a combination of age, ancestry, attire or capture conditions that no label taxonomy anticipates. **LatentAlign** finds them without attribute labels. It grows a group from a seed by repeatedly adding the face embedding most aligned with the group's identity-balanced direction, and stops when no remaining face is aligned enough. The groups it returns are more semantically coherent than those of standard clustering, and they expose **false match rates up to 6× higher** than the annotation-defined groups a supervised audit can build.
 
 ## Why directions?
 
